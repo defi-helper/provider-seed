@@ -1,6 +1,6 @@
 {
-  "name": "@waves/provider-seed",
-  "version": "0.1.0",
+  "name": "@defihelper/provider-seed",
+  "version": "0.2.0",
   "main": "dist/provider-seed.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -12,7 +12,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@waves/signer": "0.0.3",
+    "@waves/signer": "^1.0.5",
     "@waves/ts-types": "^0.3.0",
     "@waves/waves-transactions": "^3.20.2"
   },

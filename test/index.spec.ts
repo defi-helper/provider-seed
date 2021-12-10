@@ -17,4 +17,5 @@ it('Check transfer', async () => {
         })
         .sign();
     expect(transfer.assetId).toBe(null);
+    expect(transfer.recipient).toBe(user.address);
 });
